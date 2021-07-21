@@ -1,0 +1,20 @@
+{
+  "name": "keno_clone_page",
+  "version": "1.0.0",
+  "description": "Un clone de la page web kéno de la FDJ, le but étant de pouvoir entrer 20 et obtenir x nombre de combinaisons de 10 numéros à jours",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"sass --watch ./sass/style.scss:./css/style.css"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JAVASCRIPT"
+  ],
+  "author": "Gladston Aristoverne",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.35.2"
+  }
+}

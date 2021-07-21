@@ -1,0 +1,26 @@
+.section__game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .section__gameWrappe{
+        width: 70%;
+        padding: 2rem;
+         &--btn{
+            width: 80%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+                button{
+                    height: 40px;
+                    padding: .5em 1em;
+                    border: none;
+                    border-radius: 20%;
+                    color: $main_orange;
+                    -webkit-box-shadow: 26px 34px 2px 5px #FFFFFF;
+                    box-shadow: 6px 4px 7px 5px #f5f4f4;
+                    background-color: $white;
+                }
+        }
+    }
+   
+}
