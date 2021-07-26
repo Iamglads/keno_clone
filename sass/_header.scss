@@ -17,6 +17,7 @@
 }
 
 .search__bar{
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,14 +34,27 @@
             border-bottom: 1px solid $blue;
             text-align: left;
         }
+        .fa-search {
+            border-bottom: 1px solid $blue;
+        }
     }
     &--icons{
         display: flex;
         color: $blue;
+        .divider{
+            width: 1px;
+            height: 30px;
+            background-color: $blue;
+            margin: 0 10px  10px;
+        }
         a{
             display: block;
             text-align: center;
             margin-right: 10px;
+            font-size: 14px;
+            .fas, .far{
+                margin-bottom: 10px;
+            }
         }
     }
 }

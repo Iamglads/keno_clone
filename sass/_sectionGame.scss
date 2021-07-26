@@ -3,23 +3,85 @@
     justify-content: center;
     align-items: center;
     .section__gameWrappe{
-        width: 70%;
+        width: 52%;
+        max-width: 1100px;
         padding: 2rem;
          &--btn{
-            width: 80%;
+            height: 100px;
             display: flex;
-            justify-content: space-around;
+            justify-content: center;
             align-items: center;
                 button{
                     height: 40px;
                     padding: .5em 1em;
                     border: none;
-                    border-radius: 20%;
+                    border-radius: 30%;
                     color: $main_orange;
                     -webkit-box-shadow: 26px 34px 2px 5px #FFFFFF;
                     box-shadow: 6px 4px 7px 5px #f5f4f4;
                     background-color: $white;
+                    margin-right: 15px;
+                    .fas, .far{
+                        margin-right: 15px;
+                    }
                 }
+        }
+        &--price{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+            padding: 1rem;
+            .select__mise{
+                height: 100px;
+                height: 35px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                border-radius: 20%;
+                color: $main_orange;
+                -webkit-box-shadow: 26px 34px 2px 5px #FFFFFF;
+                box-shadow: 6px 4px 7px 5px #f5f4f4;
+                background-color: $white;
+                button{
+                    width: 35px;
+                    height: 35px;
+                    border: none;
+                    border-radius: 100%;
+                    color: $main_orange;
+                    background-color: $white;
+                }
+                .default{
+                    color: $white;
+                    background-color: $main_orange;
+                }
+            }
+        }
+
+        .inputNumber{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            input{
+                width: 35px;
+                height: 35px;
+                margin: 5px;
+                text-align: center;
+                font-weight: 800;
+                color:  $main_orange;
+                background-color: $white;
+                padding: .4em;
+                border-radius: 100%;
+                font-size: 16px;
+                border: none;
+                -webkit-box-shadow: 0 5px 10px 0 hsl(0deg 0% 75% / 50%);
+                box-shadow: 0 5px 10px 0 hsl(0deg 0% 75% / 50%);
+                &:hover{
+                    cursor: pointer;
+                    background-color: rgb(241, 147, 64);
+                    color: white;
+                }
+            }
         }
     }
    

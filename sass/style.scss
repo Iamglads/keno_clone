@@ -7,6 +7,8 @@ body {
 @import './sectionGame';
 
 
+
+
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -26,9 +28,7 @@ input[type=number] {
     align-items: center;
 }
 
-.inputNumber{
-    display: block;
-}
+
 
 a{
     text-decoration: none;
@@ -36,32 +36,3 @@ a{
     color: inherit;
 }
 
-input{
-    width: 30px;
-    height: 30px;
-    margin: 1px;
-    text-align: center;
-    font-weight: 800;
-}
-
-
-
-button:hover{
-    cursor: pointer;
-    background-color: rgb(241, 147, 64);
-    color: white;
-
-}
-
-.number{
-    width: 40px;
-    height: 40px;
-    color:  $main_orange;
-    background-color: $white;
-    padding: .4em;
-    border-radius: 100%;
-    font-size: 16px;
-    border: none;
-    -webkit-box-shadow: 0 5px 10px 0 hsl(0deg 0% 75% / 50%);
-    box-shadow: 0 5px 10px 0 hsl(0deg 0% 75% / 50%);
-}
